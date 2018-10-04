@@ -82,10 +82,10 @@
     <plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
     <plugin name="cordova-plugin-ionic-webview" spec="^2.0.0" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
-    <plugin name="cordova-plugin-firebase" spec="^2.0.2" />
     <plugin name="cordova-plugin-facebook4" spec="^3.0.0">
         <variable name="APP_ID" value="APP_ID" />
         <variable name="APP_NAME" value="APP_NAME" />
     </plugin>
-    <engine name="browser" spec="~5.0.4" />
+    <engine name="browser" spec="5.0.4" />
+    <engine name="ios" spec="4.5.5" />
 </widget>

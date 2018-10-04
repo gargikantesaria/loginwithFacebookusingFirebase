@@ -15,6 +15,8 @@ export class HomePage {
   {
     this.loginProvider.facebookLogin().then((response) =>{
       console.log("response is", response)
+    }).catch((error) => {
+      console.log(error);
     })
   }
 }
